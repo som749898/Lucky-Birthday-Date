@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  height: 150px;
+  background-color: #7c3aed;
+  color: white;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  padding-top: 50px;
+}
+
+label {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+#dateOfBirth {
+  width: 40%;
+  padding: 10px;
+  color: #7c3aed;
+  border: 1px solid #7c3aed;
+  font-size: 20px;
+}
+
+#luckynumber {
+  display: block;
+  width: 40%;
+  padding: 10px;
+  margin: auto;
+  font-size: 20px;
+  border: 1px solid #7c3aed;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #7c3aed;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#output-div {
+  font-size: 20px;
+}
